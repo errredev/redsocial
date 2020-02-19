@@ -8,11 +8,14 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 
+import { RComponentsModule } from '../r-component/r.component.module';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    RComponentsModule,
     HomePageRoutingModule
   ],
   declarations: [HomePage]

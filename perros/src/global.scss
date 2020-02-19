@@ -63,7 +63,7 @@ html, body {
 }
 
 .input-material-design {
-	@include box-size(50%, 50px);
+	@include box-size(80%, 50px);
 	position: relative;
 	overflow: hidden;
 	
@@ -71,7 +71,7 @@ html, body {
 		@include box-size();
 		color: $colorDark;
 		background-color: transparent;
-		padding-top: 20px;
+		padding-top: 10px;
 		border: none;
 		outline: none;
 		
@@ -109,7 +109,7 @@ html, body {
 			position: absolute;
 			bottom: -1px;
 			left: 0;
-			border-bottom: solid 3px $colorPrimary;
+			border-bottom: solid 1px $colorPrimary;
 			transform: translatex(-101%);
 			transition: all 0.3s ease;
 		}
@@ -280,6 +280,7 @@ p {
 
 
 .card--neumorphic {
+  padding-top: 10px;
   max-width: 380px;
   margin: 0 auto;
   border-radius: 40px;

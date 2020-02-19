@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RAlertaComponent} from '../r-component/r-alerta/r-alerta.component';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.page.html',

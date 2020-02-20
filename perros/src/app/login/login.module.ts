@@ -8,6 +8,9 @@ import { LoginPageRoutingModule } from './login-routing.module';
 
 import { LoginPage } from './login.page';
 import { RComponentsModule } from '../r-component/r.component.module';
+import { EntrarComponent } from './components/entrar/entrar.component';
+
+
 
 @NgModule({
   imports: [
@@ -17,6 +20,6 @@ import { RComponentsModule } from '../r-component/r.component.module';
     LoginPageRoutingModule,
     RComponentsModule
   ],
-  declarations: [LoginPage]
+  declarations: [LoginPage, EntrarComponent ]
 })
 export class LoginPageModule {}

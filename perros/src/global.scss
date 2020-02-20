@@ -48,11 +48,7 @@ $colorPrimary: #0097a7;
 	font-family: sans-serif;
 }
 
-html, body {
-	@include box-size();
-	@include flex(row, nowrap, flex-end, center);
-	background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
-}
+
 
 .body-wrapper {
 	@include box-size(80%, 50vh);
